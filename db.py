@@ -1,7 +1,6 @@
 import psycopg2
 from utils.db_utils import DataBaseSetUp
 import logging
-# TODO: create a function called execute sql which wraps up open cursor, execute, commit, close cursor.
 
 
 class Creator:

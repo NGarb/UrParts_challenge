@@ -28,7 +28,7 @@ class Scraper:
     def __init__(self):
         self.data_inserter = Inserter()
 
-    @property # TODO: look up explanation words
+    @property
     def scrape_into_db(self):
         """
             Iterates over all tags by Beautiful Soup as it scrapes the contents of urparts catalogue and inserts into db
